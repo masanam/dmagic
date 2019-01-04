@@ -1,0 +1,221 @@
+/* Mobile device */
+@media (max-width: 767px) {
+	.container{
+		width:480px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container{
+		width:100%;
+	}
+	#browse-categories .categories-wrap{
+		padding:0;
+	}
+	#browse-categories .categories-wrap .col-category{
+		padding:0 5px;
+	}
+	#browse-categories .categories-wrap .row{
+		margin-right: -4px;
+		margin-left: -4px;
+	}
+	#browse-categories .col-category a{
+		padding:0px 5px;
+		font-size:14px;
+	}
+	
+	#browse-categories .col-category a span{
+		width:35px;
+	}
+	#footer .container{
+		padding:0;
+	}
+	#footer .bottom-menu a{
+		line-height:10px;
+		padding:0 5px;
+		font-family:Azo-Bold;
+	}
+	#joinBen .col-jn a{
+		width:100%;
+	}
+	.btn3d{
+		width:80%;
+	}
+	.imgProfileUser a{
+		width:100px;
+		height:100px;
+	}
+	.imgProfileUserDetail{
+		padding-top:0;
+		margin-left:10px;
+		width:66%;
+		font-size:12px;
+	}
+	.myAccountWrap a.btnMyStash{
+		width:65%;
+	}
+	.detailPageDesc img:nth-child(1){
+		margin-top:0;
+	}
+	#popup-join-buy .col-xs-6 .btn-wider-join{
+		font-size:14px;
+		padding:13px 0px 10px 0px;
+	}
+	#popup-join-buy .modal-body h3.ttl-join{
+		font-size:23px;
+	}
+	.btn-benefit-join{
+		font-size:24px;
+	}
+	.bg-starwars{
+		min-height:400px;
+	}
+	#slide_offset2 .item span{
+		font-size:10px;
+		font-family:Azo-Bold;
+	}
+	#slide_offset2 .item{
+		padding:10px 0;
+	}
+	#slide_offset2 .item .img-slide img{
+		width:60px;
+	}
+	#specPage .slideDesc{
+		font-size:12px;
+	}
+	.editorPicks .btnEditor a{
+		padding-top: 10px;
+		padding-bottom: 6px;
+	}
+	#onlineGamePart .col-category a{
+		font-size:12px;
+		font-family:Azo-Bold;
+	}
+	#onlineGamePart .col-category a img{
+		margin-right:5px;
+		width:20px;
+	}
+	#onlineGamePart .col-category a span{
+		display:inline-block;
+	}
+	
+	
+}
+
+@media (max-width: 360px) {
+	#onlineGamePart h2{
+		font-size:16px;
+	}
+	#onlineGamePart .col-category a {
+		padding:0px 10px;
+	}
+	#slide_offset2 .item{
+		padding:5px 0;
+	}
+	.bg-starwars{
+		min-height:390px;
+	}
+	#header8el .container .language-option ul{
+		padding:0 10px;
+	}
+	.imgProfileUserDetail{
+		width:64%;
+	}
+	.timing span a{
+		padding:10px 10px 7px 10px;
+	}
+	.timing span{
+		width:50%;
+	}
+	.benefitPage .titCenter{
+		font-size:28px;
+		margin-top:30px;
+	}
+	.btn-benefit-join{
+		font-size:18px;
+		line-height:20px;
+	}
+	.btn-wider{
+		padding:7px 0px 0px 0px;
+	}
+	#specPage .slideDesc p{
+		font-size:12px;
+	}
+	
+}
+
+@media (max-width: 320px) {
+	#slide_offset2 .item{
+		padding:0;
+	}
+	.bg-starwars{
+		min-height:340px;
+	}
+	#header8el .container .language-option ul{
+		padding:0 0px;
+	}
+	h2{
+		font-size:18px;
+	}
+	#myCarouselHome .carousel-indicators li{
+		margin:1px 1px;
+	}
+	.btn-see-more{
+		padding:6px 16px;
+	}
+	#editor-pick .item .slideDesc .btn-buy{
+		font-size:14px;
+		padding:8px 0 4px 0;
+	}
+	#browse-categories .col-category a{
+		font-size:12px;
+	}
+	#footer .bottom-menu a{
+		font-size:12px;
+		border:0;
+	}
+	.imgProfileUser a{
+		width:80px;
+		height:80px;
+	}
+	.imgProfileUserDetail{
+		font-size:10px;
+	}
+	.imgProfileUserDetail a,
+	.imgProfileUserDetail strong{
+		font-size:16px;
+	}
+	.imgProfileUserDetail{
+		padding-top:10px;
+	}
+}
+
+/* Tablet device */
+@media (max-width: 768px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	
+}
+
+/* Desktop small screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+/* Desktop Small screen */
+@media (max-width: 1024px) {
+	
+}
+
+/* Desktop large screen */
+@media (min-width: 1200px) {
+	.container{
+		width:600px;
+	}
+}
